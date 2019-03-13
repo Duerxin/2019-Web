@@ -1,47 +1,105 @@
-<!DOCTYPE  html>
+﻿<!DOCTYPE  html>
 <html lang="zh-cn">
 <head>
-<meta charset="utf-8">
-<title>Blog Edit</title>
-<style type="text/css">
-   *{font-size:20px;font-family:����}
-   input[type="text"],textarea {color:#B0B0B0}
-   [for="content"]{vertical-align:top;}
-   fieldset {width:800px;margin:20px auto;padding:20px;background-color:#FCFCFF;}
-   #content {width:700px;height:300px}
-</style>
+    <meta charset="utf-8">
+    <title>Blog Edit</title>
+    <style type="text/css">
+        * {
+            font-size: 20px;
+            font-family: 宋体
+        }
+
+        input[type="text"], textarea {
+            color: #B0B0B0
+        }
+
+        [for="content"] {
+            vertical-align: top;
+        }
+
+        fieldset {
+            width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #FCFCFF;
+        }
+
+        #content {
+            width: 700px;
+            height: 300px
+        }
+    </style>
 </head>
 <body>
-<form>
+<form action="edit.jsp">
+    <fieldset>
+        <legend>修改博客</legend>
+        <label for="title">标题：</label>
+        <input id="title" name="title">
+        <br><br>
 
+        <label for="keywords">关键字：</label>
+        <input id="keywords" name="keywords">
+        <br><br>
+
+        布局：
+        <input name="layout" value="layout1" type="radio"><img src="layout1.jpg">
+        <input name="layout" value="layout1" type="radio"><img src="layout2.jpg">
+        <input name="layout" value="layout1" type="radio"><img src="layout3.jpg">
+        <br><br>
+
+        背景：
+        <select name="background">
+            <option value="bk1">背景1</option>
+            <option value="bk2">背景2</option>
+            <option value="bk3">背景3</option>
+            <option value="bk4">背景4</option>
+        </select>
+        <br><br>
+
+        适合群体：
+        <input name="group" type="checkbox" value="grp1"> 学前班
+        <input name="group" type="checkbox" value="grp2"> 小学生
+        <input name="group" type="checkbox" value="grp3"> 中学生
+        <input name="group" type="checkbox" value="grp4"> 成年人
+        <br><br>
+
+        <label for="content">内容：</label>
+        <textarea id="content" name="content" value="在这里输入博客内容"></textarea>
+        <br><br>
+
+        <input type="submit" name="save" value="保存">
+        <input type="submit" name="exit" value="退出">
+        <button type="reset" name="reset">复位</button>
+    </fieldset>
 </form>
 <script type="text/javascript">
-   function inputClick(target){
-     var value="";
-     if(target.id=="title")
-        value="���벩�ͱ���";
-     if(target.id=="keywords")
-        value="����ؼ���";
-     if(target.id=="content")
-        value="���������벩������";
+    function inputClick(target) {
+        var value = "";
+        if (target.id == "title")
+            value = "输入博客标题";
+        if (target.id == "keywords")
+            value = "输入关键字";
+        if (target.id == "content")
+            value = "在这里输入博客内容";
 
-     if(target.value==''){
-       target.style.color="#B0B0B0";
-       target.value=value;
-     }
-     else 
-     if(target.value==value){
-        target.style.color="#000000";
-        target.value="";
-     }
-   };
-   var f1=function(){inputClick(this);};
-   document.getElementById("title").onclick= f1;
-   document.getElementById("keywords").onclick= f1;
-   document.getElementById("content").onclick= f1;
-   document.getElementById("title").onblur= f1;
-   document.getElementById("keywords").onblur= f1;
-   document.getElementById("content").onblur= f1;
+        if (target.value == '') {
+            target.style.color = "#B0B0B0";
+            target.value = value;
+        } else if (target.value == value) {
+            target.style.color = "#000000";
+            target.value = "";
+        }
+    };
+    var f1 = function () {
+        inputClick(this);
+    };
+    document.getElementById("title").onclick = f1;
+    document.getElementById("keywords").onclick = f1;
+    document.getElementById("content").onclick = f1;
+    document.getElementById("title").onblur = f1;
+    document.getElementById("keywords").onblur = f1;
+    document.getElementById("content").onblur = f1;
 </script>
 </body>
 </html>
