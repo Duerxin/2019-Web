@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
-    <file url="file://$PROJECT_DIR$/html实验3/code/song1.html" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/html实验3/code/song4.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/background.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/background1.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/background2.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/box-sizing.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/box.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/colorHSL.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/font.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/hide.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/hide1.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/hide2.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/paragraph.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/html实验5/code/white-space.html" charset="GBK" />
   </component>
 </project>
