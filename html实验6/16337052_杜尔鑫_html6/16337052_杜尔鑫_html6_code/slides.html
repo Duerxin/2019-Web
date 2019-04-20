@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>slides</title>
+    <style>
+        #slideMain {
+            width:800px;
+            overflow: hidden;
+            margin: auto;
+        }
+
+        .slide {
+            width:800px;
+        }
+
+        .slides {
+            width: 4800px;
+            animation: myfirst 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function:ease-out ;
+        }
+        @keyframes myfirst {
+            0% { transform: translate(0px,0px); }
+            25% {transform: translate(-800px,0px);}
+            50% {transform: translate(-1600px,0px); }
+            75% {transform: translate(-2400px,0px); }
+            100% { transform: translate(-3200px,0px); }
+        }
+  
+    </style>
+</head>
+<body>
+    <div id="slideMain">
+         <div class="slides">
+             <img class="slide" src="images/img11.jpg">
+             <img class="slide" src="images/img12.jpg">
+             <img class="slide" src="images/img13.jpg">
+             <img class="slide" src="images/img14.jpg">
+             <img class="slide" src="images/img11.jpg">
+         </div>
+    </div>
+</body>
+</html>
