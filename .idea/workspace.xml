@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0da2edad-24d5-4a00-89a3-545a2b5c84b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html实验6/HTML&amp;CSS实验(6).doc" beforeDir="false" afterPath="$PROJECT_DIR$/html实验6/HTML&amp;CSS实验(6).doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html实验6/code/dhs.html" beforeDir="false" afterPath="$PROJECT_DIR$/html实验6/code/dhs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html实验6/code/food.html" beforeDir="false" afterPath="$PROJECT_DIR$/html实验6/code/food.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html实验6/code/gyy.html" beforeDir="false" afterPath="$PROJECT_DIR$/html实验6/code/gyy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html实验6/code/leaf.html" beforeDir="false" afterPath="$PROJECT_DIR$/html实验6/code/leaf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html实验6/code/slides.html" beforeDir="false" afterPath="$PROJECT_DIR$/html实验6/code/slides.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html实验6/code/sysu.html" beforeDir="false" afterPath="$PROJECT_DIR$/html实验6/code/sysu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html实验6/code/wgw.html" beforeDir="false" afterPath="$PROJECT_DIR$/html实验6/code/wgw.html" afterDir="false" />
-    </list>
+    <list default="true" id="0da2edad-24d5-4a00-89a3-545a2b5c84b3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,11 +13,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html实验6/code/slides.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html实验7/code/menu1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="26" lean-forward="true" selection-end-line="43" />
+            <state relative-caret-position="-266">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html实验7/code/board2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="88" column="12" selection-start-line="5" selection-start-column="3" selection-end-line="88" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html实验7/code/menu2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="102" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="102" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,6 +62,8 @@
       <find>500</find>
       <find>300</find>
       <find>border: solid 1px blue; width: 300px;</find>
+      <find>#6f4c1b</find>
+      <find>op</find>
     </findStrings>
     <replaceStrings>
       <replace>300</replace>
@@ -92,6 +107,10 @@
         <option value="$PROJECT_DIR$/html实验6/code/leaf.html" />
         <option value="$PROJECT_DIR$/html实验6/code/food.html" />
         <option value="$PROJECT_DIR$/html实验6/code/slides.html" />
+        <option value="$PROJECT_DIR$/html实验7/code/board1.html" />
+        <option value="$PROJECT_DIR$/html实验7/code/menu1.html" />
+        <option value="$PROJECT_DIR$/html实验7/code/menu2.html" />
+        <option value="$PROJECT_DIR$/html实验7/code/board2.html" />
       </list>
     </option>
   </component>
@@ -109,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,18 +138,19 @@
             <path>
               <item name="2019-Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="html实验6" type="462c0819:PsiDirectoryNode" />
+              <item name="html实验7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019-Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="html实验6" type="462c0819:PsiDirectoryNode" />
+              <item name="html实验7" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,11 +214,12 @@
       <workItem from="1555569629542" duration="5661000" />
       <workItem from="1555757221725" duration="66000" />
       <workItem from="1555757335077" duration="8127000" />
+      <workItem from="1556523069028" duration="8484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41365000" />
+    <option name="totallyTimeSpent" value="49849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -364,6 +384,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="37" column="26" lean-forward="true" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html实验7/code/board1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="89" column="6" lean-forward="true" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html实验7/code/menu2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="102" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="102" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html实验7/code/menu1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html实验7/code/board2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="88" column="12" selection-start-line="5" selection-start-column="3" selection-end-line="88" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
