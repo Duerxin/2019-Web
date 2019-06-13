@@ -1,0 +1,25 @@
+<!DOCTYPE  html>
+<html lang="zh-cn">
+<head>
+    <title>编程器</title>
+    <script>
+
+    </script>
+</head>
+<body>
+<h1>编程器</h1>
+<label>x:</label><input type="text" id="x" name="x"><br>
+<label>y:</label><input type="text" id="y" name="y"><br>
+<label>program:</label><textarea id="program" rows="6" cols="36"></textarea><br>
+<input type="button" onclick="pro()" value="运行"/>
+<script>
+    function pro() {
+        var x = document.getElementById("x").value;
+        var y = document.getElementById("y").value;
+        var pro = document.getElementById("program").value;
+        var f = new Function("x", "y", pro);
+        f(x, y);
+    }
+</script>
+</body>
+</html>
