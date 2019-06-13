@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX-get</title>
+    <style>
+        p {
+            font-size: 20px
+        }
+    </style>
+</head>
+<body>
+<h1>Ajax-get</h1>
+<p>id：<input id="t1" type="text" onblur="wait()"></p>
+<p id="t2">[无]</p>
+<script>
+    var xmlhttp = new XMLHttpRequest();
+    function wait() {
+        var t2 = document.getElementById("t2");
+        t2.innerHTML = "正在查询...";
+        setTimeout(searchID,1);
+    }
+
+    function searchID() {
+        var id = document.getElementById("t1").value;
+        var msg = "http://172.18.187.9:8080/jsp/get.jsp?id=" + id;
+        xmlhttp.open("get", msg, false);
+        xmlhttp.send(null);
+        alert(xmlhttp.responseText);
+        var t2 = document.getElementById("t2");
+        t2.innerHTML = xmlhttp.responseText;
+    }
+</script>
+</body>
+</html>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
-    <file url="file://$PROJECT_DIR$/html实验7/code/text-shadow.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/js实验1/code/calc.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/js实验1/code/program.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/js实验2/code/ajaxGet.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/js实验2/code/ajaxPost.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/js实验2/code/jys.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/js实验2/code/menu.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/js实验2/code/validate.html" charset="GBK" />
   </component>
 </project>
