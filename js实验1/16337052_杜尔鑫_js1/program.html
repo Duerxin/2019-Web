@@ -1,0 +1,22 @@
+<!DOCTYPE  html>
+<html  lang="zh-cn">
+ <head>
+   <title>编程器</title>
+   <script>
+       function run() {
+           var x = document.getElementById("x").value;
+           var y = document.getElementById("y").value;
+           var program = document.getElementById("program").value;
+           var run_program = new Function('x','y',program);
+           run_program(x,y)
+       }
+   </script>
+ </head>
+ <body>
+    <h1>编程器</h1>
+    <p><label>x:</label><input id="x" name="x"></p>
+    <p><label>y:</label><input id="y" name="y"></p>
+    <p><label>program:</label><textarea id="program" name="program" cols="30" rows="6"></textarea></p>
+    <input type="button" value="运行" onclick="run()">
+ </body>
+</html>
